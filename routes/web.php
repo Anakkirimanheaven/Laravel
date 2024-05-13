@@ -25,4 +25,4 @@ Route::get('hewan',[MyController::class,'animals']);
 //route movie
 Route::get('movie', [MovieController::class, 'getMovie']);
 Route::get('movie/{id}', [MovieController::class, 'getMovieById']);
-
+jkjkj
