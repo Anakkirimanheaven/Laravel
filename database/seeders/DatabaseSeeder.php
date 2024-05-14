@@ -11,12 +11,13 @@ class DatabaseSeeder extends Seeder
     /**
      * Seed the application's database.
      */
-    public function run() 
+    public function run()
     {
         $this->call([
             FilmSeeder::class,
             DetailFilmSeeder::class,
             MediaFilmSeeder::class,
+            ArtikelSeeder::class
         ]);
     }
 }
