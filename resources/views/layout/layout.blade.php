@@ -59,7 +59,7 @@
     <main class="py-4">
         @yield('content')
     </main>
-
+    <hr>
     {{-- {{ Start Footer }} --}}
     @include('layout.footer')
     {{-- {{ End Footer }} --}}
